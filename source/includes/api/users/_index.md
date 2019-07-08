@@ -1,6 +1,6 @@
 # Users
 
-## Get User
+## Get Connected User
 
 > Request `GET /v1/users`
 
@@ -29,4 +29,6 @@
 }
 ```
 
-Retreive account information for a logged in user
+**Authentication:** Basic
+
+Returns account information for the user currently logged in.

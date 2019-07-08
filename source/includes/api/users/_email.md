@@ -8,4 +8,6 @@
 Email Verified
 ```
 
+**Authentication:** Public
+
 Endpoint for user email verification - this should only be triggered from the verification email itself.

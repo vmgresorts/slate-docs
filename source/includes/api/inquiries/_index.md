@@ -17,4 +17,6 @@
 ]
 ```
 
+**Authentication:** Basic
+
 Requests all of the users inquiries.
