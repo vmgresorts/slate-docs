@@ -49,6 +49,18 @@ The second section will be the response code followed by a payload (if present).
 A 204 response code will never send a payload.
 </aside>
 
+<aside class="notice">
+  All URL's are expected to be prefixed with one of the following: <br />
+  <ul>
+    <li>
+    <code>https://api.dev.vmgresorts.com</code>
+  </li>
+    <li>
+      <code>https://api.vmgresorts.com</code>
+    </li>
+  </ul>
+</aside>
+
 ## Authenticated Routes
 
 > Request `GET /imaginary/secret/route`
