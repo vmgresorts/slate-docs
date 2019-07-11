@@ -11,6 +11,7 @@ includes:
   - api/users/index
   - api/users/email
   - api/users/password
+  - api/listings/index
   - api/inquiries/index
   - errors
 
@@ -19,9 +20,7 @@ search: true
 
 # Introduction
 
-Welcome to our API docs! You can view code examples in the dark area to the right.
-
-This API documentation was created with [Slate](https://github.com/lord/slate).
+Welcome to our API docs!
 
 ## Request/Response example
 
@@ -41,9 +40,7 @@ This API documentation was created with [Slate](https://github.com/lord/slate).
 }
 ```
 
-The first section of a code example will always contain the request's HTTP method and the url it will be sent to. Any sections with a colon (`:token`) are url parameters. If there is a payload expected, it will be directly below this section.
-
-The second section will be the response code followed by a payload (if present).
+Each code example will have two sections, each section optionally followed by a sample payload. The first section is the request and the second is the response. The request will always be formatted as `Request <HTTP method> <URL>`. Any sections in the url with a colon (`:token`) are url parameters.
 
 <aside class="notice">
 A 204 response code will never send a payload.
