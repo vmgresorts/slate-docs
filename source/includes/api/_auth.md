@@ -30,7 +30,7 @@ Registers a user account for local authentication.
 | familyName | yes      | string |                         |
 | givenName  | yes      | string |                         |
 
-## Local Authentication
+## Standard Authentication
 
 > Request `POST /auth/login`
 
@@ -56,4 +56,50 @@ Log in to a user account registered for local authentication.
 | Field    | Required | Type   |
 | -------- | -------- | ------ |
 | email    | Yes      | String |
+| password | Yes      | String |
+
+## Customer Service Authentication
+
+> Request `POST /auth/portal/login`
+
+```json
+{
+  "username": "developer",
+  "password": "password"
+}
+```
+
+> Response `200 OK`
+
+```json
+{
+  "name": {
+    "familyName": "Doe",
+    "givenName": "John"
+  },
+  "emailVerified": true,
+  "photo": "https://.../default_profile_photo.png",
+  "roles": [
+    {
+      "CS": true
+    }
+  ],
+  "createdOn": "2019-06-20T18:32:53.638Z",
+  "updatedOn": "2019-06-20T18:32:53.638Z",
+  "deletedOn": null,
+  "_id": "5d0bd15abddf313cf8973f8e",
+  "email": "JohnDoe@vmgresorts.com",
+  "__v": 0
+}
+```
+
+**Authentication:** Public
+
+Log in to a customer service account. It is important to note that the username and password provided are for accounts linked through our own internal APIs and are not representative of anything in this application.
+
+### Request Parameters
+
+| Field    | Required | Type   |
+| -------- | -------- | ------ |
+| username | Yes      | String |
 | password | Yes      | String |

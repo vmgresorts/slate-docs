@@ -250,11 +250,6 @@ An email notice will be sent to the customer service inbox.
 
 **Authentication:** Email
 
-View messages for an inquiry. Messages will be paginated serverside. `results` represents the messages for the current qury. `total` represents the total number of results queryable and `page` represents the page the current `results` are from.
+View messages for an inquiry.
 
-### Request Parameters
-
-| Field    | Required | default | Type   | Notes                     |
-| -------- | -------- | ------- | ------ | ------------------------- |
-| page     | false    | 0       | number | >= 0, used for pagination |
-| pageSize | false    | 5       | number | >= 0, used for pagination |
+Results will be paginated serverside. `results` represents the messages for the current qury. `total` represents the total number of results queryable and `page` represents the page the current `results` are from.

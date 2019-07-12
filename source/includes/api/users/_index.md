@@ -18,7 +18,7 @@
     "day": "01"
   },
   "emailVerified": false,
-  "photo": "https://vmg-uploads.s3.us-east-2.amazonaws.com/default_profile_photo.png",
+  "photo": "https://.../default_profile_photo.png",
   "roles": [],
   "createdOn": "2019-07-03T11:07:25.123Z",
   "updatedOn": "2019-07-03T11:07:25.123Z",

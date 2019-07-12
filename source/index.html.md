@@ -13,6 +13,11 @@ includes:
   - api/users/password
   - api/listings/index
   - api/inquiries/index
+  - api/google/maps
+  - api/cs-accounts/index
+  - api/cs-inquiries/index
+  - api/cs-inquiries/messages
+  - api/cs-inquiries/payments
   - errors
 
 search: true
