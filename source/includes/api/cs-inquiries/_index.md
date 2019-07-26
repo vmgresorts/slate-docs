@@ -165,8 +165,8 @@ Results will be paginated serverside. `results` represents the messages for the 
       "refunded": 25,
       "refundedBy": {
         "name": {
-          "familyName": "Brown",
-          "givenName": "Christian"
+          "familyName": "Doe",
+          "givenName": "John"
         },
         "photo": "https://.../default_profile_photo.png",
         "_id": "5d0bd15abddf313cf8973f8e"
@@ -181,8 +181,8 @@ Results will be paginated serverside. `results` represents the messages for the 
       "capturedOn": "2019-06-22T09:22:19.220Z",
       "createdBy": {
         "name": {
-          "familyName": "Brown",
-          "givenName": "Christian"
+          "familyName": "Doe",
+          "givenName": "John"
         },
         "photo": "https://.../default_profile_photo.png",
         "_id": "5d0bd15abddf313cf8973f8e"
